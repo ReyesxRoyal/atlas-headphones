@@ -1,0 +1,257 @@
+/* CSS for tablet */
+
+@media (min-width: 768px) and (max-width: 1072px) {
+    body {
+        padding: 20px;
+    }
+
+    .fl {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        position: relative;
+        top: 2em;
+    }
+
+    .footer-images {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: row;
+        gap: 3%;
+    }
+
+    .hex-con {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        gap: 25%;
+        margin-left: 20%;
+        margin-top: 15%;
+        margin-bottom: 25%;
+        margin-right: 20%;
+        height: 100%;
+        width: 100%;
+        color:#FFFFFF;
+    }
+
+    .hex1, .hex2, .hex3, .hex4 {
+        background-image: url('images/pentagone.png');
+    }
+}
+
+header {
+    background-image: url('images/headphones_hero_1.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+}
+
+body {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.HP {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 20px;
+}
+
+.hp {
+    display: flex;
+    width: 161px;
+    height: 32px;
+    margin-right: 150px;
+}
+
+.b1 {
+    background-color: #FF6565;
+    color: #ffffff;
+    width: 162px;
+    height: 44px;
+    border: none;
+    border-radius: 40rem;
+    position: relative;
+    bottom: 210%;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.5);
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    margin: 25px;
+    gap: 25px;
+    font-size: 12px;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+.banner {
+    position: relative;
+    text-align: center;
+    height: 313px;
+    top: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color:#FFFFFF
+}
+
+.banner1 {
+    padding-bottom: 100px;
+}
+
+.bannerh1 {
+    size: 32px;
+    weight: 700px;
+}
+
+.bannerp1 {
+    position: relative;
+    bottom:15px;
+    size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.button-p {
+    display:flex;
+    justify-content: center;
+    position: relative;
+    bottom: 25%;
+}
+
+.what {
+    margin-top: 18%;
+    margin-bottom: 18%;
+}
+
+.what h2 {
+    margin-bottom: 8%;
+}
+
+.Lorem0 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25%;
+    margin-bottom: 25%;
+}
+
+.Lorem1 {
+    grid-column: span 2;
+    grid-row: 2;
+}
+
+.Lorem2 {
+    grid-column: span 2;
+    grid-row: 2;
+}
+
+.Lorem3 {
+    grid-column: span 2;
+    grid-row: 1;
+}
+
+.Lorem4 {
+    grid-column: span 2;
+    grid-row: 1;
+}
+
+.hero {
+    background-image: url('images/headphones_hero_2.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 0.5%;
+    margin: auto;
+}
+
+.hour {
+    display:flex;
+    justify-content: center;
+    position: relative;
+    color:#FFFFFF;
+}
+
+.hour h2 {
+    margin: 15%;
+}
+
+.hourp {
+    display:flex;
+    justify-content: center;
+    color:#FFFFFF;
+    margin-top: -10%;
+}
+
+.htitle {
+    font-size: 46px;
+}
+
+.htitle, .l {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+    margin: 10px;
+}
+
+.button {
+    background-color: #FF6565;
+    color: #ffffff;
+    width: 162px;
+    height: 44px;
+    border: none;
+    border-radius: 40rem;
+    position: relative;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.5);
+}
+
+
+.footer {
+    background-color: #071629;
+    padding: 8%;
+}
+
+.con {
+    margin: 20%;
+}
+
+.us {
+    margin: 5%;
+}
+
+.name {
+    margin: 10%;
+}
+
+.Email {
+    margin: 10%;
+}
+
+.message {
+    margin: 10%;
+}
+
+.footer-caption {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-size: 10px;
+    opacity: 0.35;
+    color: #ffffff;
+    position: relative;
+    top: 3.8em;
+}
